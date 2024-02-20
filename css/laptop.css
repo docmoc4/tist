@@ -1,0 +1,24 @@
+@media (max-width: 1200px) {
+    menu{
+        width:100%;
+        height: 45px;
+        background: rgb(151, 44, 44);
+    }
+    content{
+        width: 100%;
+        min-height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 10px;
+        max-inline-size: 850px;
+        margin-inline: auto;
+    }
+    .ggs{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 200px;
+    }
+
+
+}

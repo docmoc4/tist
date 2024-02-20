@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.m01{
+    width: 1200px;
+    margin: 0 auto;
+}
+menu{
+    width:100%;
+    height: 50px;
+    background: rgb(151, 44, 44);
+}
+
+header{
+    width: 100%;
+    min-height: 200px;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    
+}
+content{
+    width: 100%;
+    min-height: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    width: 100%;
+    min-height: 50px;
+    background-color:black;
+    color:white;
+}
+
+/* blocki */
+.mblock{
+    margin: 10px 0 10px 10px;
+    width: 287.5px;
+    height: 450px;
+    border-width: 1px;
+    border-color: crimson;
+    border-style: solid;
+    
+}
+
+.bh{
+    width: 100%;
+    height: 50px;
+    background: rebeccapurple;
+}
+.mpic{
+    background: red;
+    width: 277.5px;
+    height: 250px;
+    margin: 5px;
+
+}
+.mpic img{
+    width: 280px;
+    height: 250px;
+}
+.tixt{
+    display: block;
+    text-align: justify;
+    width: 277.5px;
+    height: 135px;
+    margin: 0 5px 5px 5px;
+}
+.pipc{
+    margin: 10px;
+    width: 287px;
+    height: 165px;
+ 
+}
+.tuxt{
+    display: block;
+    text-align: justify;
+    width: 277.5px;
+    height: 135px;
+    margin: 0 5px 5px 5px;
+    background: white;
+    
+}
+.duble p{
+    display:bloc;
+    margin: 10px 10px 10px 307,5px;
+    text-align: center;
+    position: absolute;
+    width: 882.5px;
+    height: 50px;
+    background-color: white;
+}
+.ggs{
+    display: flex;
+    flex-direction: column;
+}
+.dable{
+    width: 287.5px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin: 140px 10px 10px 596.5px;
+}
+/*animations logo*/
+.logo-inner{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.5s;
+    transform-style: preserve-3d;
+}
+.logo:hover .logo-inner{
+    transform: rotateY(180deg);
+}
+.logo-front, .logo-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+.logo-front{
+    background-color: #cccccc;
+    color:#111111;
+}
+.logo-back{
+    background-color: #8ebf42;
+    color:#eeeeee;
+    transform: rotateY(180deg);
+}
+/*menu glavnoe*/
+.tmenu{
+    width: 100%;
+
+}
+.tmenu li{
+    display: block;
+    float: left;
+}
+.tmenu li ul li{
+    float:none;
+    
+}
+.tmenu li ul{
+    display:none;
+    position: absolute;
+    z-index: 99;
+}
+.tmenu li:hover ul{
+    display:block;
+
+}
+.tmenu li ul li ul{
+    display: none;
+    margin-left: 240px;
+    margin-top: -25px;
+}
+.tmenu li:hover ul li ul{
+    display: none;
+}
+.tmenu li ul li:hover ul{
+    display: block;
+}
+
+.tmenu li a{
+    display: block;
+    width: 240px;
+    text-align: center;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+
+}
